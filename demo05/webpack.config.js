@@ -40,5 +40,6 @@ module.exports = {
   devServer: {
     // Service Workers 依赖 HTTPS，使用 DevServer 提供的 HTTPS 功能。
     https: true,
+    // inline: false
   }
 };
